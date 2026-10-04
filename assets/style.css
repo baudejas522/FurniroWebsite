@@ -1,0 +1,997 @@
+/* Visi */
+/* Body */
+/* Containeris */
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.container
+{
+    width: 100%;
+    max-width: 1440px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+/* PIRMAS PUSLAPIS */
+/* Headeris */
+
+header
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Heeader Nav IR FOOTER NAV */
+
+nav
+{
+    display: flex;
+    gap: 200px;
+}
+
+/* KairePuse */
+
+.leftSide img
+{
+    width: 50px;
+    height: 32px;
+}
+
+.leftSide h1
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+}
+
+.leftSide
+{
+    display: flex;    
+    align-items: center;
+}
+
+/* Vidurys */
+
+.middleNav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 24px;
+    width: 430px;
+}
+
+.rightNav img
+{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+nav a, .rightNav a
+{
+    text-decoration: none;
+    color: #000000;
+}
+
+nav ul, .rightNav ul
+{
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav ul li
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/* MAIN */
+/* MAIN Nuotraukos*/
+
+.picture
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../assets/img/mainBackround.png);
+    width: 1400px;
+    height: 716px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 50px;
+}
+
+/* MAIN Dizainas*/
+
+main, article
+{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.backround
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFF3E3;
+    padding: 40px;
+    width: 643px;
+    height: 443px;
+    border-radius: 10px;
+}
+
+.text p:nth-child(1)
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 3px;
+    color:  #333333;
+}
+
+.text h2
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 52px;
+    color: #B88E2F;
+}
+
+.text p:last-of-type
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.buyNow
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #B88E2F;
+    width: 222px;
+    height: 74px;
+    margin-top: 40px;
+}
+
+.buyNow a 
+{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+/* MAIN BROWSE*/
+/* MAIN BROWSE HEADERIS*/
+.roomConteiner
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+
+.secondText
+{
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.secondText p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight:400;
+    font-size: 20px;
+    color: #666666;
+}
+
+h3:nth-child(1)
+{
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #333333;
+}
+
+.imgRange
+{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.dining, .living, .bedroomTwo
+{
+    width: 381px;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* MAIN BROWSE NUOTRAUKOS*/
+
+.dining
+{
+    background-image: url(../assets/img2/Dining.png);
+}
+
+.living
+{
+    background-image: url(../assets/img2/Living.png);
+}
+
+.bedroomTwo
+{
+    background-image: url(../assets/img2/Bedroom.png);
+}
+
+/* MAIN BROWSING ROOMS*/
+
+.rooms
+{
+    width: 100%;
+}
+
+.rooms ul
+{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.rooms ul li
+{
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #333333;
+}
+
+/* MAIN */
+/* OUR PROCUTS */
+/* NUOTRAUKOS */
+
+.syltherine, .leviosa, .lolito, 
+.respira, .grifto, .muggo, 
+.pingky, .potty
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 285px;
+    height: 301px;
+}
+
+.syltherine
+{
+    background-image: url(../assets/img3/Images.png);
+}
+
+
+.leviosa
+{
+    background-image: url(../assets/img3/image\ 2.png);
+}
+
+.lolito
+{
+    background-image: url(../assets/img3/image\ 3.png)
+}
+
+.respira
+{
+    background-image: url(../assets/img3/Images\ \(1\).png);
+}
+
+.grifto
+{
+    background-image: url(../assets/img3/Images\ \(2\).png);
+}
+
+.muggo
+{
+    background-image: url(../assets/img3/Images\ \(3\).png);
+}
+
+.pingky
+{
+    background-image: url(../assets/img3/image\ 7.png)
+}
+
+.potty 
+{
+    background-image: url(../assets/img3/Images\ \(4\).png);
+}
+
+/* MAIN */
+/* OUR PROCUTS */
+
+.productConteiner
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.syltherine, .lolito, .pingky, .respira, .muggo, .potty, .leviosa, .grifto
+{
+    position: relative;
+}
+
+.syltherine p, .pingky p, .lolito p, 
+.respira p, .muggo p, .potty p
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E97171;
+    right: 20px;
+    top: 20px;
+    width: 48px;
+    height: 48px;
+    border-radius: 40px;
+    font-family: "Poppins", sans-serif;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px
+}
+
+.respira p, .muggo p, .potty p
+{
+    background-color: #2EC1AC;
+}
+
+.thirdText
+{
+    padding: 40px;
+}
+
+.products
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+.products li
+{
+    width: 285px;
+    background-color: #F4F5F7;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.names ul, .description ul, .price ul
+{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.products li p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B0B0B0;
+    text-decoration:line-through
+}
+
+.names ul li
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    color: #3A3A3A;
+}
+
+.description ul li
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #898989;
+}
+
+.price ul li
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3A3A3A;
+}
+
+.showMore 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #B88E2F;
+    width: 245px;
+    height: 48px;
+}
+
+.showMore a
+{
+    text-decoration: none;
+    color: #B88E2F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+
+}
+
+.imgRowOne, .imgRowTwo
+{
+    display: flex;
+    gap: 30px
+}
+
+.imgRowOne > div:hover .hover, .imgRowTwo > div:hover .hover
+{   
+    background-color: #3A3A3ACC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.imgRowOne > div:hover > p, .imgRowTwo > div:hover > p
+{
+    opacity: 0.7;
+}
+
+.hover
+{
+    display: none;
+    width: 100%;
+    height: 150%;
+}
+
+.addToCartOne a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #FFFFFF;
+    width: 202px;
+    height: 48px;
+    color: #B88E2F;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.addToCartTwo a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+}
+
+.addToCartTwo ul 
+{
+    width:100%;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+/* MAIN */
+/* Beautiful rooms */
+/* Nuotraukos */
+
+.bedroom, .kitchenRoom, .otherRoom
+{
+    background-repeat: no-repeat;
+    width: 372px;
+    height: 486px;
+}
+
+.arrow 
+{
+    position: relative;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    width: 48px;
+    height: 48px;
+    left: 350px;
+    top: 250px;
+    box-shadow: 0px 4px 14px 1px #00000029;
+}
+
+.arrow a
+{
+    position: absolute;
+    top: 12px;
+    left: 21px;
+    color: #B88E2F;
+    text-decoration: none;
+}
+
+.elipse
+{
+    margin-top: 460px;
+}
+
+.elipses
+{
+    margin-left: 50px;
+    margin-top: -20px;
+}
+
+.elipsesTwo
+{
+    margin-left: 80px;
+    margin-top: -11px;
+}
+
+.elipsesThree
+{
+    margin-left: 110px;
+    margin-top: -11px;
+}
+
+.elipses, .elipsesTwo, .elipsesThree
+{
+    width: 11px;
+    height: 11px;
+}
+
+.bedRoom
+{
+    background-image: url(../assets/img4/Rectangle\ 24.png);
+    width: 404px;
+    height: 582px;
+}
+
+.kitchenRoom
+{
+    background-image: url(../assets/img4/Rectangle\ 25.png)
+}
+
+.otherRoom
+{
+    background-image: url(../assets/img4/Rectangle\ 26.png)
+}
+
+.elipse
+{
+    background-image: url(../assets/img6/Active.png);
+    width: 27px;
+    height: 27px;
+}
+
+.elipses
+{
+    background-image: url(../assets/img6/Ellipse\ 1.png);
+}
+
+.elipsesTwo
+{
+    background-image: url(../assets/img6/Ellipse\ 2.png);
+}
+
+.elipsesThree
+{
+    background-image: url(../assets/img6/Ellipse\ 3.png);
+}
+
+/* MAIN */
+/* Beautiful rooms */
+
+.inspirations
+{
+    background-color: #FCF8F3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 670px;
+    overflow: hidden;
+}
+
+aside
+{
+    width: 500px;
+    flex-shrink: 0;
+}
+
+.forthText h3
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #3A3A3A;
+}
+
+.forthText p
+{
+     font-family: "Poppins", sans-serif;
+     font-weight: 500;
+     font-size: 16px;
+     color: #616161;
+}
+
+.forthText
+{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.exploreMore
+{
+    background-color: #B88E2F;
+    width: 176px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forthText a
+{
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF
+}
+
+.roomsInspo
+{
+   display: flex;
+   align-items: flex-start;
+   gap: 20px;
+}
+
+.bedRoom
+{
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.backroundtwo
+{
+    background-color: #FFFFFF;
+    opacity: 72%;
+    width: 217px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backroundtwo p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #616161;
+}
+
+.backroundtwo h3
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+.backroundthree
+{
+    background-color: #B88E2F;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.backroundthree a
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/* MAIN */
+/* GALERY */
+/* FOTO */
+
+.firstGaleryFoto, .secondGaleryFoto, 
+.thirdGaleryFoto, .forthGaleryFoto, .fifthGaleryFoto,
+.sixthGaleryFoto, .seventGaleryFoto, .eighthGaleryFoto,
+.ninthGaleryFoto
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.firstGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 36.png);
+    width: 74px;               
+    height: 382px;
+}
+
+.secondGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 37.png);
+    width: 181px;
+    height: 323px;
+}
+
+.thirdGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 38.png);
+    width: 451px;
+    height: 312px;
+}
+
+.forthGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 39.png);
+    width: 344px;
+    height: 242px;
+}
+
+.fifthGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 40.png);
+    width: 295px;
+    height: 392px;
+}
+
+.sixthGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 43.png);
+    width: 290px;
+    height: 348px;
+}
+
+.seventGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 41.png);
+    width: 170px;
+    height: 242px;
+}
+
+.eighthGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 44.png);
+    width: 258px;
+    height: 198px;
+}
+
+.ninthGaleryFoto
+{
+    background-image: url(../assets/img5/Rectangle\ 45.png);
+    width: 258px;
+    height: 441px;
+}
+
+/* MAIN */
+/* GALERY */
+/* GALLERY */
+
+.topText
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topText p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #616161;
+}
+
+.topText h3
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #3A3A3A;
+}
+
+.gallery
+{
+    display: flex;
+    gap: 20px;
+    overflow: hidden
+}
+
+.firstLine, .secondLine, .thirdLine, .fifthLine
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sixedLine
+{
+    display: flex;
+    gap: 20px;
+}
+
+.thirdGaleryFoto
+{
+    margin-left: -110px;
+}
+
+.secondLine
+{
+    margin-top: 70px;
+}
+
+.thirdLine
+{
+    margin-top: 147px
+}
+
+.forthLine
+{
+    display: flex;
+    flex-wrap: wrap;           
+    gap: 20px;
+    width: 266px;             
+    margin-top: 94px;
+}
+
+/* Pries Footer */
+
+.line
+{
+    height: 2px;
+    background-color: #E8E8E8;
+    width: 1363px;
+    margin: 20px auto;
+} 
+
+/* FOOTERIS */
+
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.funiroFooter
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.funiroFooter h4
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    color: #000000;
+}
+
+.funiroFooter p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    width: 250px;
+    color: #9F9F9F;
+}
+
+.links p, .help p, aside p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    color: #9F9F9F
+}
+
+.links ul, .help ul
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+footer aside p 
+{
+    margin-bottom: 45px;
+}
+
+footer aside input[type="email"]
+{
+    border: none;
+    width: 180px;
+    border-bottom: 1px solid;
+    border-color: #000000;
+    padding-bottom: 2px;
+}
+
+footer aside input[type="email"]::placeholder
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #9F9F9F;
+}
+
+footer aside a
+{
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    color: #000000;
+    text-transform: uppercase;
+    width: 100%;
+    border-bottom: 1px solid #E8E8E8;
+    border-color: #000000;
+}
+
+.bottom
+{
+    display: flex;
+    width: 100%;
+    border-top: 1px solid #E8E8E8;
+    padding-top: 30px; 
+    margin-top: 40px;
+}
+
+.bottom p
+{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+}
