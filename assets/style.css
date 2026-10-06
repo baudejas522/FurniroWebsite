@@ -100,6 +100,78 @@ nav ul li
     font-weight: 500;
     font-size: 16px;
 }
+@media(max-width: 1024px)
+{
+    header
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .middleNav ul, .leftSide, .rightNav ul
+    {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .middleNav, .leftSide, .rightNav
+    {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1024px)
+{
+    header
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .middleNav ul, .leftSide, .rightNav ul
+    {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .middleNav, .leftSide, .rightNav
+    {
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+
+@media(max-width: 768px)
+{
+    header
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+
+    .middleNav ul, .leftSide, .rightNav ul
+    {
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .middleNav, .leftSide, .rightNav
+    {
+        text-align: center;
+        padding: 10px;
+    }
+}
 
 /* MAIN */
 /* MAIN Nuotraukos*/
@@ -184,6 +256,148 @@ main, article
     text-transform: uppercase;
 }
 
+/* MAINO 1 ARTICLE media */
+
+@media(max-width: 1028px)
+{
+
+main
+{
+        flex-direction: column;
+}
+
+.picture .backround, .text, .buyNow
+{
+        flex-direction: column;
+}
+
+.picture, .backround, .text, .buyNow
+{
+        width: auto;
+}
+
+.backround
+{
+        width: auto;
+        width: 600px;
+        height: 450px;
+}
+
+.text p:nth-child(1)
+{
+    font-size: 14px;
+}
+
+.text h2
+{
+    font-size: 70px;
+}
+
+.text p:last-of-type
+{
+    font-size: 14px;
+}
+
+.buyNow 
+{
+    margin-top: 20px;
+}
+}
+
+@media(min-width: 768px) and (max-width: 1024px)
+{
+main
+{
+        flex-direction: column;
+}
+
+.picture .backround, .text, .buyNow
+{
+        flex-direction: column;
+}
+
+
+.backround
+{
+        width: 444px;
+        height: 450px;
+}
+
+.text p:nth-child(1)
+{
+    font-size: 20px;
+}
+
+.text h2
+{
+    font-size: 20px;
+}
+
+.text p:last-of-type
+{
+    font-size: 14px;
+}
+
+.buyNow 
+{
+    margin-top: 20px;
+}
+}
+
+
+@media(max-width: 768px)
+{
+main
+{
+        flex-direction: column;
+}
+
+.picture .backround, .text, .buyNow
+{
+        flex-direction: column;
+}
+
+.picture, .backround, .text, .buyNow
+{
+        width: auto;
+}
+
+.backround
+{
+        width: 300px; 
+        height: 350px;
+        
+}
+
+.text p:nth-child(1)
+{
+    font-size: 10px;
+}
+
+.text h2
+{
+    font-size: 15px;
+}
+
+.text p:last-of-type
+{
+    font-size: 8px;
+}
+
+.buyNow 
+{
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.buyNow a
+{
+    font-size: 10px;
+}
+
+}
+
+
 /* MAIN BROWSE*/
 /* MAIN BROWSE HEADERIS*/
 .roomConteiner
@@ -255,6 +469,207 @@ h3:nth-child(1)
 .rooms
 {
     width: 100%;
+}
+
+/* MAINO 2 ARTICLE media */
+
+@media(max-width: 1024px)
+{
+
+    html, body
+    {
+        width: 100%;
+    }
+
+    .roomConteiner, .secondText, .imgRange, .rooms ul
+    {
+        flex-direction: column;
+    }
+
+    .secondText h3, .secondText p, .rooms ul
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .roomConteiner, .imgRange, .roomConteiner .rooms, .roomConteiner .rooms ul
+    {
+        display: contents;
+    }
+
+    .dining
+    {
+        order: 1;
+    }
+
+    .rooms ul li:nth-child(1)
+    {
+        order: 2;
+    }
+
+    .living
+    {
+        order: 3;
+    }
+
+    .rooms ul li:nth-child(2)
+    {
+        order: 4;
+    }
+
+    .bedroomTwo
+    {
+        order: 5;
+    }
+
+    .rooms ul li:nth-child(3)
+    {
+        order: 6;
+    }
+
+    .rooms ul li
+    {
+        margin:20px;
+    }
+
+    .dining, .living, .bedroomTwo
+    {
+       margin: 0 auto;
+       width: 100%;
+    }
+
+}
+
+@media(min-width: 768px) and (max-width: 1024px)
+{
+
+    html, body
+    {
+        width: 100%;
+    }
+
+    .roomConteiner, .secondText, .imgRange, .rooms ul
+    {
+        flex-direction: column;
+    }
+
+    .secondText h3, .secondText p, .rooms ul
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .roomConteiner, .imgRange, .roomConteiner .rooms, .roomConteiner .rooms ul
+    {
+        display: contents;
+    }
+
+    .dining
+    {
+        order: 1;
+    }
+
+    .rooms ul li:nth-child(1)
+    {
+        order: 2;
+    }
+
+    .living
+    {
+        order: 3;
+    }
+
+    .rooms ul li:nth-child(2)
+    {
+        order: 4;
+    }
+
+    .bedroomTwo
+    {
+        order: 5;
+    }
+
+    .rooms ul li:nth-child(3)
+    {
+        order: 6;
+    }
+
+    .rooms ul li
+    {
+        margin:20px;
+    }
+
+    .dining, .living, .bedroomTwo
+    {
+       margin: 0 auto;
+    }
+
+}
+
+@media(max-width: 768px)
+{
+
+    html, body
+    {
+        width: 100%;
+    }
+
+    .roomConteiner, .secondText, .imgRange, .rooms ul
+    {
+        flex-direction: column;
+    }
+
+    .secondText h3, .secondText p, .rooms ul
+    {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .roomConteiner, .imgRange, .roomConteiner .rooms, .roomConteiner .rooms ul
+    {
+        display: contents;
+    }
+
+    .dining
+    {
+        order: 1;
+    }
+
+    .rooms ul li:nth-child(1)
+    {
+        order: 2;
+    }
+
+    .living
+    {
+        order: 3;
+    }
+
+    .rooms ul li:nth-child(2)
+    {
+        order: 4;
+    }
+
+    .bedroomTwo
+    {
+        order: 5;
+    }
+
+    .rooms ul li:nth-child(3)
+    {
+        order: 6;
+    }
+
+    .rooms ul li
+    {
+        margin:20px;
+    }
+
+    .dining, .living, .bedroomTwo
+    {
+       margin: 0 auto;
+    }
+
 }
 
 .rooms ul
@@ -507,6 +922,74 @@ h3:nth-child(1)
     display: flex;
     gap: 50px;
 }
+/* MAINO 3 ARTICLE media */
+
+@media(max-width: 768px)
+{
+    .productConteiner
+    {
+        flex-direction: column;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .imgRowOne, .imgRowTwo, .products, .names,
+    .description, .price, .names ul, .description ul, .price ul
+    {
+        display: contents;
+    }
+
+    .syltherine, .imgRowOne + .products li:nth-child(1)
+    {
+        order: 1;
+    }
+
+    .leviosa, .imgRowOne + .products li:nth-child(2)
+    {
+        order: 2;
+    }
+
+    .lolito, .imgRowOne + .products li:nth-child(3)
+    {
+        order: 3;
+    }
+
+    .respira, .imgRowOne + .products li:nth-child(4)
+    {
+        order: 4;
+    }
+
+    .grifto, .imgRowTwo + .products li:nth-child(1)
+    {
+        order: 5;
+    }
+
+    .muggo, .imgRowTwo + .products li:nth-child(2)
+    {
+        order: 6;
+    }
+
+    .pingky, .imgRowTwo + .products li:nth-child(3)
+    {
+        order: 7;
+    }
+
+    .potty, .imgRowTwo + .products li:nth-child(4)
+    {
+        order: 8;
+    }
+
+    .price li
+    {
+        margin-bottom: 30px;
+    }
+
+    .showMore
+    {
+        order: 9;
+    }
+}
+
 
 /* MAIN */
 /* Beautiful rooms */
@@ -728,6 +1211,62 @@ aside
     color: #FFFFFF;
 }
 
+/* MAINO 4 ARTICLE media */
+
+@media(max-width: 768px)
+{
+    .inspirations
+    {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .inspirations aside
+    {
+        width: 100%;
+    }
+
+    .bedRoom, .backroundtwo, .kitchenRoom
+    {
+        max-width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .forthText h3
+    {
+        font-size: 30px;
+    }
+
+    .forthText p, forthText h3
+    {
+        text-align: center;
+    }
+
+    .forthText, .forthText h3, .forthText p, .exploreMore 
+    {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .arrow
+    {
+        margin-left: -30px;
+    }
+
+    .elipse
+    {
+        margin-left: 35px;
+    }
+
+    .elipses
+    {
+        margin-left: 10px;
+    }
+}
+
 /* MAIN */
 /* GALERY */
 /* FOTO */
@@ -878,6 +1417,33 @@ aside
     margin-top: 94px;
 }
 
+/* MAINO 5 ARTICLE media */
+
+@media(max-width: 768px)
+{
+    .gallery, .sixedLine
+    {
+        flex-direction: column;
+    }
+
+    .gallery
+    {
+        align-items: center;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .thirdGaleryFoto, .forthGaleryFoto, .seventGaleryFoto, .firstGaleryFoto
+    {
+        margin: 0 auto;
+    }
+
+    .secondLine, .forthLine, .thirdLine
+    {
+        margin: 0 auto;
+    }
+}
+
 /* Pries Footer */
 
 .line
@@ -887,6 +1453,14 @@ aside
     width: 1363px;
     margin: 20px auto;
 } 
+
+@media(max-width: 1024px)
+{
+    .line
+    {
+        width: 300px;
+    }
+}
 
 /* FOOTERIS */
 
@@ -994,4 +1568,91 @@ footer aside a
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
+}
+
+/* Footer media */
+
+@media(max-height: 1024px)
+{
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 30px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 40px;
+    }
+
+    .links ul, .help ul
+    {
+        margin-top: 10px;
+        gap: 15px;
+    }
+}
+
+
+@media(min-width:768px) and (max-height: 1024px)
+{
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 30px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
+
+    .links ul, .help ul
+    {
+        margin-top: 10px;
+        gap: 15px;
+    }
+}
+
+@media(max-width: 768px)
+{
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 20px;
+        padding: 30px 20px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    nav
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 30px;
+    }
+
+    .links ul, .help ul
+    {
+        margin-top: 10px;
+        gap: 15px;
+    }
 }
